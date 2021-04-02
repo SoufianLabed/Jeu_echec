@@ -166,7 +166,7 @@ public class Pion extends Piece {
 		  int vertical = Math.abs(case_dest.getj() - this.getj());
 
 		  if(manger_possible(case_dest,horizontal,vertical)){
-			  //System.out.println("tu rentre dans gray possible");
+			
 			  Piece piece_manger = case_dest.getPiece(); // on sauve la piece manger
 			  int current_position = this.getPosition(); // on sauve la position courrante
 
