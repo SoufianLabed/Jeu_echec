@@ -21,7 +21,7 @@ public class Cavalier extends Piece {
 	      if ( case_dest.getPiece().getCouleur() != this.getCouleur()){
 	    	  /* on test si c'est une piece adverse que tu veux manger*/
 
-	    	  // on verifie que cest pas le roi quon mange tas capté ?
+	    	  // on verifie que cest pas le roi qu'on mange
 	    	  if (case_dest.getPiece().getNom() != "Roi") {
 	              return true;
 	          }
