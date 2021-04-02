@@ -57,12 +57,11 @@ public class Partie implements java.io.Serializable{
 
 		// si le joueur 1 choisi la couleur blanche, et que lautre joueur choisit aussi blanc, on recommence
 		while(joueur2.getCouleur() == joueur1.getCouleur()){
-			System.out.println("cette couleur est deja choisie par le joueur 1, donc recommence, wallah tu force" +
-					" a faire buguer le programme.");
+			System.out.println("cette couleur est deja choisie par le joueur 1, donc recommence stp");
 			joueur2.init();
 		}
 
-		System.out.println("Okk tout est bon, bismillah lets go !");
+		System.out.println("Okk tout est bon");
 
 		//creation et initialisation de lechiquier
 		this.p = new Plateau();
@@ -297,8 +296,6 @@ public class Partie implements java.io.Serializable{
 
 
 
-
-// cette fonction va nous permettre deeeeeeee, vaaaa, va nous permetre deee, de charger quoi ! ah jai arriver au payyss
 
 	public void charger(String nomFichier) throws IOException {
 		//On cree un plateau
